@@ -25,10 +25,10 @@ La page sur l'horlogerie marocaine.<br><br>
 [artisanat.html](artisanat.html)<br>
 La page sur l'artisanat marocain.<br><br>
 
-[nourriture.html](nourriture.html)<br>
+[negation.html](negation.html)<br>
 La page sur la cuisine marocaine.<br><br>
 
-[football.html](football.html)<br>
+[propositions.html](propositions.html)<br>
 La page sur le football marocain.<br><br>
 
 **5 pages JavaScript :** <br>

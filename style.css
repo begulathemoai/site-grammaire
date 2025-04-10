@@ -14,7 +14,7 @@ primary     : #cc0a16
 secondary   : #2fa077
 accent      : ?
 
-NOURRITURE
+Négation
 primary     : #cc0a16
 secondary   : #2fa077
 accent      : ?
@@ -157,58 +157,44 @@ ol {
     width: 200px;
 }
 
-.index-horlogerie {
+.index-interrogation {
     background-color: #f6f4f2;
     height: 200px;
 }
-.index-horlogerie p {
+.index-interrogation p {
     background-color: #f6f4f2;
     margin-left: 230px;
 }
-#Hindex-titre {
+/* #Iindex-titre {
     margin-top: -170px;
     margin-left: 230px;
-}
+} */
 
-
-.index-artisanat {
+.index-negation {
     background-color: #f6f4f2;
     height: 200px;
 }
-.index-artisanat p {
+.index-negation p {
     background-color: #f6f4f2;
     margin-left: 230px;
 }
-#Aindex-titre {
-    margin-top: -170px;
-    margin-left: 230px;
-}
-
-.index-nourriture {
-    background-color: #f6f4f2;
-    height: 200px;
-}
-.index-nourriture p {
-    background-color: #f6f4f2;
-    margin-left: 230px;
-}
-#Nindex-titre {
+/* #Nindex-titre {
     margin-top: -120px;
     margin-left: 230px;
-}
+} */
 
-.index-football {
+.index-propositions {
     background-color: #f6f4f2;
     height: 200px;
 }
-.index-football p {
+.index-propositions p {
     background-color: #f6f4f2;
     margin-left: 230px;
 }
-#Findex-titre {
+/* #Pindex-titre {
     margin-top: -240px;
     margin-left: 230px;
-}
+} */
 .left {
     text-align: left;
 }
@@ -363,24 +349,24 @@ td:last-of-type {
     margin-top: 2%;
 }
 
-/* nourriture */
-.nourriture * {
+/* Négation */
+.Négation * {
     color: black;
 }
-.nourriture h1, .nourriture strong {
+.Négation h1, .Négation strong {
     color: saddlebrown;
 }
-.nourriture h2, .nourriture h3 {
+.Négation h2, .Négation h3 {
     color: chocolate;
 }
-.nourriture .navigation-entre-page a.actif {
+.Négation .navigation-entre-page a.actif {
     background: saddlebrown;
     color: white;
 }
-.nourriture .articles-centres {
+.Négation .articles-centres {
     margin-top: 5%;
 }
-.nourriture .navigation-entre-page a {
+.Négation .navigation-entre-page a {
     color: saddlebrown;
 }
 #cut {
