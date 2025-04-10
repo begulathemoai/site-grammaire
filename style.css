@@ -1,0 +1,428 @@
+/*
+HORLOGERIE
+primary     : #351E10
+secondary   : #651E10
+accent      : #951E10
+
+FOOTBALL
+primary     : #cc0a16
+secondary   : #2fa077
+accent      : ?
+
+ARTISANAT
+primary     : #cc0a16
+secondary   : #2fa077
+accent      : ?
+
+NOURRITURE
+primary     : #cc0a16
+secondary   : #2fa077
+accent      : ?
+*/
+
+/* base - . */
+* {
+    font-family: "Arial", sans-serif;
+    text-decoration: none;
+    background-color: white;
+    color: #351E10;
+}
+body {
+    margin-top: 0px;
+}
+strong, h3, h4, h5, h6 {
+    color: #651E10;
+}
+h1, h2 {
+    color: #951E10;
+}
+h2 {
+    line-height: 0;
+}
+.images {
+    width: 50%;
+}
+.conteneur {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 90% 10%;
+}
+
+/* barre de navigation */
+.barre-de-navigation {
+    position: sticky;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(1, 100%);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    top: 0;
+    z-index: 1000;
+}
+a {
+    text-decoration: underline;
+}
+.titre {
+    width: 50px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* boutons - haut de page */
+.navigation-entre-page {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+}
+.navigation-entre-page a {
+    float: left;
+    text-align: center;
+    align-content: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.2s; /* On active les transitions pour un effet *smooth* */
+}
+.navigation-entre-page a:hover {
+    background-color: #ddd;
+    color: black;
+    padding: 14px 18px;
+}
+.navigation-entre-page  a.actif {
+    background-color: #951E10;
+    color: white;
+}
+
+/* FREMDER */
+.articles-exterieurs {
+    width: 100%;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.ae-petit {
+    width: fit-content;
+}
+
+/* MEIN */
+.paragraphes {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+}
+.articles-centres {
+    text-align: center;
+}
+.images {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10%;
+}
+.plus-petite-box {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+p {
+    text-align: justify;
+}
+.quiz h3 {
+    text-align: center;
+}
+ol {
+    text-align: justify;
+}
+
+/* index */
+.index * {
+    color: black;
+}
+
+.index-image {
+    width: 200px;
+}
+
+.index-horlogerie {
+    background-color: #f6f4f2;
+    height: 200px;
+}
+.index-horlogerie p {
+    background-color: #f6f4f2;
+    margin-left: 230px;
+}
+#Hindex-titre {
+    margin-top: -170px;
+    margin-left: 230px;
+}
+
+
+.index-artisanat {
+    background-color: #f6f4f2;
+    height: 200px;
+}
+.index-artisanat p {
+    background-color: #f6f4f2;
+    margin-left: 230px;
+}
+#Aindex-titre {
+    margin-top: -170px;
+    margin-left: 230px;
+}
+
+.index-nourriture {
+    background-color: #f6f4f2;
+    height: 200px;
+}
+.index-nourriture p {
+    background-color: #f6f4f2;
+    margin-left: 230px;
+}
+#Nindex-titre {
+    margin-top: -120px;
+    margin-left: 230px;
+}
+
+.index-football {
+    background-color: #f6f4f2;
+    height: 200px;
+}
+.index-football p {
+    background-color: #f6f4f2;
+    margin-left: 230px;
+}
+#Findex-titre {
+    margin-top: -240px;
+    margin-left: 230px;
+}
+.left {
+    text-align: left;
+}
+/* pied de page */
+.pied-de-page {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-top: 5%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: lightgray;
+    color: white;
+}
+
+.pied-de-page a {
+    background-color: lightgray;
+    color: white;
+    text-decoration: none;
+}
+
+/* flèche - haut de page */
+.fleche-haut {
+    height: 50px;
+    width: 50px;
+}
+.retour-haut-de-page {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    float: right;
+    margin: 50px;
+    border: none;
+    box-shadow: 0px 0px 0px 1px #613931;
+    transition: all 0.2s;
+    
+    z-index: 1;
+    display: none;
+}
+.retour-haut-de-page:hover {
+    box-shadow: 0px 0px 0px 3px black;
+}
+
+/* tableaux */
+.tableaux {
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+thead,
+tfoot {
+    background-color: rgb(228 240 245);
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+/* horlogerie */
+.horlogerie * {
+    color: black;
+}
+.horlogerie .navigation-entre-page a.actif {
+    background-color: #651E10;
+    color: white;
+}
+.horlogerie strong, .horlogerie h3 {
+    color: #951E10;
+}
+.horlogerie h2 {
+    color: #351E10;
+}
+.horlogerie .navigation-entre-page a {
+    color: #351E10;
+}
+
+.tabla {
+    width: 100%;
+}
+
+/* football */
+.football * {
+    color: #000000;
+}
+.football .navigation-entre-page a {
+    color: #cc0a16;
+}
+.football .navigation-entre-page a.actif {
+    background-color: #cc0a16;
+    color: #ffffff;
+}
+.football strong, .football h3, .football h4, .football h5, .football h6 {
+    color: #cc0a16;
+}
+.football h1, .football h2 {
+    color: #cc0a16;
+}
+.portraits {
+    width: 25%;
+    margin-top: 2%;
+    border-radius: 10%;
+}
+.football .articles-centres {
+    margin-top: 5%;
+}
+
+/* artisanat */
+.artisanat ul, table {
+    text-align: justify;
+}
+.artisanat * {
+    color: black;
+}
+.artisanat h1, .artisanat strong {
+    color: midnightblue;
+}
+.artisanat h2, .artisanat h3 {
+    color: seagreen;
+}
+.artisanat .navigation-entre-page a {
+    color: seagreen;
+}
+.artisanat .navigation-entre-page a.actif {
+    background: seagreen;
+    color: white;
+}
+.artisanat .articles-centres {
+    margin-top: 2%;
+}
+
+/* nourriture */
+.nourriture * {
+    color: black;
+}
+.nourriture h1, .nourriture strong {
+    color: saddlebrown;
+}
+.nourriture h2, .nourriture h3 {
+    color: chocolate;
+}
+.nourriture .navigation-entre-page a.actif {
+    background: saddlebrown;
+    color: white;
+}
+.nourriture .articles-centres {
+    margin-top: 5%;
+}
+.nourriture .navigation-entre-page a {
+    color: saddlebrown;
+}
+#cut {
+    width: 60px;
+}
+
+.quiz-body h3 {
+    color: #A6BDD0;
+}
+
+.quiz-body h1 {
+    color: #6D6DC0;
+}
+
+.quiz-body .navigation-entre-page a.actif {
+    background-color: #6D6DC0;
+    color: white;
+}
+
+.quiz-body .navigation-entre-page a {
+    color: #B5E61D;
+}
+
+.info h1 {
+    color: #001E64;
+}
+.info h2, h3 {
+    color: #6D6DC0;
+}
+.info .navigation-entre-page a:hover {
+    background-color: #001E64;
+    color: #FFF200;
+}
+
+.index .pied-de-page footer {
+    background-color: #f6f4f2;
+}
+.index .pied-de-page footer a {
+    background-color: #f6f4f2;
+    color: black;
+}
+
+.info .barre-de-navigation h2 {
+    color: #001E64;
+}
