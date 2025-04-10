@@ -33,13 +33,13 @@ La page sur les différents types de propositions.<br><br>
 **5 pages JavaScript :** <br>
 [bouton_defilement.js](bouton_defilement.js)<br>
 Bouton permettant de remonter en haut d'une page.<br><br>
-###(
+### (<br>
 [embed.js](embed.js)<br>
 Case permettant de renvoyer l'utilisateur vers un site extérieur.<br><br>
 
 [images.js](images.js)<br>
 Animation de certaines images (bordures).
-###)<br><br>
+### )<br><br>
 
 [quiz.js](quiz.js)<br>
 Script de gestion du quiz.<br><br>
