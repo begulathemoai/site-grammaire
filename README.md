@@ -3,9 +3,9 @@
 
 ---
 ## Contributeurs : 
-PUJOL Léo
-BERNADES Nelio
-SORIN Alexandre
+PUJOL Léo<br>
+BERNADES Nelio<br>
+SORIN Alexandre<br>
 
 ## Composition du site :
 **1 page css :**<br>
